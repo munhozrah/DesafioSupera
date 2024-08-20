@@ -5,6 +5,6 @@ public class FlorSamambaia {
         var distancia = (int) Math.sqrt(((x1 - x2) * (x1 - x2)) + ((y1 - y2) * (y1 - y2)));
         if (distancia + r2 > r1)
             return "MORTO";
-        return "VIVO";
+        return "RICO";
     }
 }
